@@ -11,13 +11,15 @@ h1{
     font-size: 50px;
 }
 div.projects {
-    margin-left: 10%;
-    width: 40%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    width: 35%;
     float: left;
 }
 div.socials {
-    margin-right: 10%;
-    width: 40%;
+    margin-lef: 7.5%;
+    margin-right: 7.5%;
+    width: 35%;
     float: left;
 }
 h2{
@@ -29,25 +31,28 @@ ul {
     padding-inline-start: 0px;
     text-align: center;
 }
-li {
-    margin: 16px;
+.projects li {
+    margin: auto;
+    margin-top: 16px;
     padding: 6px;
-}
-.projects a{
-    margin: 16px;
-    padding: 6px;
-    text-decoration: none;
-    font-size: 20px;
-    color: black;
+    word-wrap: break-word;
     background-color: #ED474A;
     outline: 4px solid #5D090B;
+    width: 65%;
 }
-.socials a {
+.socials li {
+    margin: auto;
+    margin-top: 16px;
+    padding: 6px;
+    word-wrap: break-word;
+    background-color: #B2ECE1;
+    outline: 4px solid #257E7D;
+    width: 65%;
+}
+a{
     margin: 16px;
     padding: 6px;
     text-decoration: none;
     font-size: 20px;
     color: black;
-    background-color: #B2ECE1;
-    outline: 4px solid #257E7D;
 }
