@@ -34,6 +34,8 @@ li {
     padding: 6px;
 }
 .projects a{
+    margin: 16px;
+    padding: 6px;
     text-decoration: none;
     font-size: 20px;
     color: black;
