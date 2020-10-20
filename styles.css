@@ -11,11 +11,13 @@ h1{
     font-size: 50px;
 }
 div.projects {
-    width: 50%;
+    margin-left: 10%;
+    width: 40%;
     float: left;
 }
 div.socials {
-    width: 50%;
+    margin-right: 10%;
+    width: 40%;
     float: left;
 }
 h2{
@@ -25,7 +27,6 @@ h2{
 ul {
     list-style-type: none;
     padding-inline-start: 0px;
-    padding-top: 16px;
     text-align: center;
 }
 li {
