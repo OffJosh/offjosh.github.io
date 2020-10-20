@@ -28,8 +28,8 @@ h2{
 }
 ul {
     list-style-type: none;
-    padding-inline-start: 0px;
     text-align: center;
+    padding-inline-start: 0px;
 }
 .projects li {
     margin: auto;
@@ -50,9 +50,8 @@ ul {
     width: 65%;
 }
 a{
-    margin: 16px;
-    padding: 6px;
     text-decoration: none;
     font-size: 20px;
     color: black;
+    display: inline-block
 }
