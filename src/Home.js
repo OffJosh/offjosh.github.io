@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import './App.css';
 import {SiteTile} from './Tiles'
 import {Tile} from "./Tiles";
+import { useEffect } from "react";
 
 let discordLogo = "./discord-mark-white.svg";
 let discordLink = "https://discord.com/channels/@me";
@@ -16,7 +17,13 @@ let githubLink = "https://github.com/OffJosh";
 
 let wallpapersLogo = "./desktop-512.png"
 
-function Home(){
+
+
+export function Home(props){
+    useEffect(() => {
+        document.title = props.title
+        return;
+    })
     return(
         <div>
         <Tile params={[discordLogo, "Discord: offjosh", discordLink]}/>
@@ -26,4 +33,7 @@ function Home(){
         </div>
     )
 }
+
+
+
 export default Home;
