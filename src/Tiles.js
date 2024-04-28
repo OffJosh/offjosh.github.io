@@ -40,18 +40,14 @@ export function SiteTile({params}) {
 export function WallpaperTile({params}) {  
     return (
         <a className="text" href={params[2]} target="_blank">
-            <div className="outerTile">
-                <div className="tile tileBig">
-                    <div className="left">
-                        <img className="wallpaper" src={params[0]}></img>
-                    </div>
-                    <div className="right">
-                        <div>
-                        <a className="text headerText" >{params[1]}</a><br/>
-                        <a className="text descriptionText">{params[3]}</a>
-                        </div>
-                    </div>      
+            <div className="wallpaperTile">
+                <div className="wallpaperLeft">
+                    <img className="wallpaperImage" src={params[0]}></img>
                 </div>
+                <div className="wallpaperRight">
+                    <a className="text headerText" >{params[1]}</a><br/>
+                    <a className="text descriptionText">{params[3]}</a>
+                </div>    
             </div>
         </a>
     );

@@ -71,22 +71,43 @@
 }
 
 
-.wallpaper{
+.wallpaperImage{
   height: 100%;
   width: 12rem;
 }
 
-.tileBig{
-    height: 8rem;
-    width: 30rem;
+.wallpaperTile{
+  height: auto;
+  width: 40rem;
+  max-width: 80vw;    
+  border-radius: 1rem;
+  background-color: rgb(70, 70, 70);
+  padding: 1rem;
+  font-size: x-large;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.wallpaperLeft{
+  display: flex;
+  float: left;  
+}
+
+.wallpaperRight{
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  text-decoration: none;  
+  padding-left: 2rem;
 }
 
 .headerText {  
-  font-size: xx-large;
+  font-size: x-large;
 }
 
 .descriptionText {  
-  font-size: large;
+  font-size: medium;
 }
 
 a:link,a:visited,a:hover,a:active { 
