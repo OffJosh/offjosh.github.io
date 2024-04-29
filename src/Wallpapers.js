@@ -2,7 +2,7 @@ import {WallpaperTile} from './Tiles'
 import './App.css';
 import { useEffect } from "react";
 
-let wallpapersV1DriveLink = "https://drive.google.com/drive/folders/1AzI0Lv2Jju-tyaYuTjB503ocl27iXKzp?usp=sharing"
+let wallpapersV1DriveLink = "https://drive.google.com/file/d/17WIk5hpwdfNNRMxVxEtvAzvG_QzCtIT9/view?usp=sharing"
 let wallpapersV1Logo = "./Honey.png"
 let wallpapersV1Description = "Collection of 15 Wallpapers. Wavy design. Multiple colours in 5k."
 
