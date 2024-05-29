@@ -21,7 +21,7 @@ export function Tile({params}) {
 
 export function SiteTile({params}) {  
     return(
-        <Link to="/wallpapers">
+        <Link to={params[2]}>
             <div className="outerTile">
                 <div className="tile">
                     <div className="left">
