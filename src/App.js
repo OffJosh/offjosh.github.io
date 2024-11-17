@@ -16,7 +16,7 @@ function Header(){
   return(
     <header className="headerDiv">
       <Link to="/">
-          <img className="headerPhoto" src="./kermit512.png"/>
+          <img className="headerPhoto" src="./profilePic.JPG" alt="Josh Merrett Profile shot"/>
         </Link>
     </header>
   )
